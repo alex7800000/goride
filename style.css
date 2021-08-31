@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.parts{
+    text-align: center;
+    font-size: 30px;
+}
+.forma img{
+    width: 500px;
+    height: 500px;
+     transition: all 1s;
+}
+.one-part{
+    display: inline-block;
+    margin: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.65); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.20);
+  
+    /* transition-delay: .3s; */
+}
+.forma img:hover{
+    position: relative;
+    top: -20px;
+    transition: all 1s;
+}
+body{
+    background-color: rgb(112, 122, 131);
+}
+.all-parts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav img{
+    width: 570px;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.scooter-parts {
+    background-image: url(https://www.rippedknees.co.uk/image/kickscootershop_n.jpeg);
+    background-size: 100%;
+    width: 50%;
+    height: 60vh;
+}
+.coplite-scooters{
+    background-image: url(https://ae01.alicdn.com/kf/H8df8387966c544bdab3227c5d9cb0497K/Pro-Stunt-Scooter-EThic-Artefacr-V2-Complete-Freestyle-Street-Scooter-Adults-Teens-Professional-Extreme-Sports-Scooter.jpg_Q90.jpg_.webp);
+    background-size: 100%;
+    width: 50%;
+    height: 60vh;
+}
+.categories{
+    display: flex;
+    
+}
