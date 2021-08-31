@@ -40,12 +40,13 @@ nav{
     background-color: white;
     display: flex;
     justify-content: center;
+    height: 20vh;
 }
 .scooter-parts {
     background-image: url(https://www.rippedknees.co.uk/image/kickscootershop_n.jpeg);
     background-size: 100%;
-    width: 50%;
     height: 60vh;
+
 }
 .coplite-scooters{
     background-image: url(https://ae01.alicdn.com/kf/H8df8387966c544bdab3227c5d9cb0497K/Pro-Stunt-Scooter-EThic-Artefacr-V2-Complete-Freestyle-Street-Scooter-Adults-Teens-Professional-Extreme-Sports-Scooter.jpg_Q90.jpg_.webp);
@@ -55,5 +56,23 @@ nav{
 }
 .categories{
     display: flex;
-    
+}
+.categories a{
+    width: 50%;
+    display: block;
+}
+.contacts{
+    background-color: rgb(163, 157, 157);
+    width: 20%;
+    height: 100px;
+    margin-left: 90px;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    height: 20vh;
 }
